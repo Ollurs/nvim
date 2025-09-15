@@ -1,0 +1,34 @@
+# Swap, backup, undo, session files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.undo
+*.log
+*.session
+
+# Plugin manager data
+lazy/
+site/
+pack/
+plugin/packer_compiled.lua
+
+# Python virtual environments
+.venv/
+venv/
+env/
+python_env/
+__pycache__/
+*.pyc
+
+# Local cache and history
+shada/
+shada/* 
+*.shada
+*.netrwhist
+
+# OS-specific
+.DS_Store
+
+# Other
+*.orig
